@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+body {
+  font-family: Heebo;
+}
+
+.container {
+  max-width: 681px;
+  margin: 0 auto;
+}
+
+header {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-bottom: 75px;
+}
+.menu__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 86px;
+}
+.menu__link {
+  margin-right: 35px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.menu__link:last-child {
+  margin-right: 60px;
+}
+
+a {
+  color: #000;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.blog {
+  margin-bottom: 25px;
+}
+
+.red {
+  color: #FF6464;
+}
+
+.infotable {
+  height: 180px;
+  margin-top: 30px;
+  width: 681px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: inline-block;
+  border-bottom: 3px solid #EDF7FA;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 700px;
+  width: 60px;
+}
+
+.word {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+.center {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+}
+
+footer {
+  margin-top: 52px;
+  height: 182px;
+}
+
+.icons__box {
+  width: 1152px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 233px;
+  height: 8px;
+  left: 458px;
+  top: 66px;
+}
+
+.icons__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243D;
+  position: relative;
+  width: 221px;
+  height: 8px;
+  left: 464px;
+  top: 121px;
+}
