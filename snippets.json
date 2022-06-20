@@ -1,8 +1,0 @@
-{
-   "css": {
-      "snippets": {
-         "@@@": "@mixin  (){} @include  ()",
-         "%%%": "%  {} @extend % "
-      }
-   }
-}
